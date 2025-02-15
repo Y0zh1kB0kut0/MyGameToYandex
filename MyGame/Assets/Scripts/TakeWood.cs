@@ -30,7 +30,10 @@ public class TakeWood : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Take(other);
+        if (other.gameObject.tag == "Wood")
+        {
+            Take(other);
+        }
     }
 
     void Take(Collider other)
