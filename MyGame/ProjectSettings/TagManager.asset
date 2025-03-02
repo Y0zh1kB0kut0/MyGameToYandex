@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tree
   - Wood
+  - SmallTree
+  - MediumTree
+  - BigTree
   layers:
   - Default
   - TransparentFX
